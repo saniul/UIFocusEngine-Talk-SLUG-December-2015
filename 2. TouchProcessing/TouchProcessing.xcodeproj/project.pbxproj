@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756380EB1C1FFDF5002EFD9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380EA1C1FFDF5002EFD9C /* AppDelegate.swift */; };
+		756380ED1C1FFDF5002EFD9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380EC1C1FFDF5002EFD9C /* ViewController.swift */; };
+		756380F01C1FFDF5002EFD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756380EE1C1FFDF5002EFD9C /* Main.storyboard */; };
+		756380F21C1FFDF5002EFD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756380F11C1FFDF5002EFD9C /* Assets.xcassets */; };
+		756380FC1C200E85002EFD9C /* unit grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 756380FB1C200E85002EFD9C /* unit grid.png */; };
+		756381001C2012A4002EFD9C /* TouchProcessingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380FD1C2012A4002EFD9C /* TouchProcessingViewController.swift */; };
+		756381011C2012A4002EFD9C /* TouchProcessing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756380FF1C2012A4002EFD9C /* TouchProcessing.storyboard */; };
+		756381041C2016B0002EFD9C /* GestureRecognizersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756381021C2016B0002EFD9C /* GestureRecognizersViewController.swift */; };
+		756381051C2016B0002EFD9C /* GestureRecognizers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756381031C2016B0002EFD9C /* GestureRecognizers.storyboard */; };
+		756381221C2019C1002EFD9C /* sleepycat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 756381211C2019C1002EFD9C /* sleepycat.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		756380E71C1FFDF5002EFD9C /* TouchProcessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchProcessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		756380EA1C1FFDF5002EFD9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		756380EC1C1FFDF5002EFD9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		756380EF1C1FFDF5002EFD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		756380F11C1FFDF5002EFD9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		756380F31C1FFDF5002EFD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756380FB1C200E85002EFD9C /* unit grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unit grid.png"; sourceTree = "<group>"; };
+		756380FD1C2012A4002EFD9C /* TouchProcessingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchProcessingViewController.swift; path = ../../../CustomTouchesSimple/CustomTouchesSimple/TouchProcessingViewController.swift; sourceTree = "<group>"; };
+		756380FE1C2012A4002EFD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TouchProcessing.storyboard; sourceTree = "<group>"; };
+		756381021C2016B0002EFD9C /* GestureRecognizersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureRecognizersViewController.swift; sourceTree = "<group>"; };
+		756381031C2016B0002EFD9C /* GestureRecognizers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GestureRecognizers.storyboard; sourceTree = "<group>"; };
+		756381211C2019C1002EFD9C /* sleepycat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sleepycat.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756380E41C1FFDF5002EFD9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756380DE1C1FFDF5002EFD9C = {
+			isa = PBXGroup;
+			children = (
+				756380E91C1FFDF5002EFD9C /* TouchProcessing */,
+				756380E81C1FFDF5002EFD9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		756380E81C1FFDF5002EFD9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756380E71C1FFDF5002EFD9C /* TouchProcessing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756380E91C1FFDF5002EFD9C /* TouchProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				756380EA1C1FFDF5002EFD9C /* AppDelegate.swift */,
+				756380EC1C1FFDF5002EFD9C /* ViewController.swift */,
+				756380EE1C1FFDF5002EFD9C /* Main.storyboard */,
+				756380FD1C2012A4002EFD9C /* TouchProcessingViewController.swift */,
+				756380FF1C2012A4002EFD9C /* TouchProcessing.storyboard */,
+				756381021C2016B0002EFD9C /* GestureRecognizersViewController.swift */,
+				756381031C2016B0002EFD9C /* GestureRecognizers.storyboard */,
+				756380FB1C200E85002EFD9C /* unit grid.png */,
+				756381211C2019C1002EFD9C /* sleepycat.jpg */,
+				756380F11C1FFDF5002EFD9C /* Assets.xcassets */,
+				756380F31C1FFDF5002EFD9C /* Info.plist */,
+			);
+			path = TouchProcessing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		756380E61C1FFDF5002EFD9C /* TouchProcessing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756380F61C1FFDF5002EFD9C /* Build configuration list for PBXNativeTarget "TouchProcessing" */;
+			buildPhases = (
+				756380E31C1FFDF5002EFD9C /* Sources */,
+				756380E41C1FFDF5002EFD9C /* Frameworks */,
+				756380E51C1FFDF5002EFD9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchProcessing;
+			productName = TouchProcessing;
+			productReference = 756380E71C1FFDF5002EFD9C /* TouchProcessing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756380DF1C1FFDF5002EFD9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Saniul Ahmed";
+				TargetAttributes = {
+					756380E61C1FFDF5002EFD9C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 756380E21C1FFDF5002EFD9C /* Build configuration list for PBXProject "TouchProcessing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 756380DE1C1FFDF5002EFD9C;
+			productRefGroup = 756380E81C1FFDF5002EFD9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				756380E61C1FFDF5002EFD9C /* TouchProcessing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756380E51C1FFDF5002EFD9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756381221C2019C1002EFD9C /* sleepycat.jpg in Resources */,
+				756380F21C1FFDF5002EFD9C /* Assets.xcassets in Resources */,
+				756381011C2012A4002EFD9C /* TouchProcessing.storyboard in Resources */,
+				756380FC1C200E85002EFD9C /* unit grid.png in Resources */,
+				756381051C2016B0002EFD9C /* GestureRecognizers.storyboard in Resources */,
+				756380F01C1FFDF5002EFD9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756380E31C1FFDF5002EFD9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756380ED1C1FFDF5002EFD9C /* ViewController.swift in Sources */,
+				756380EB1C1FFDF5002EFD9C /* AppDelegate.swift in Sources */,
+				756381041C2016B0002EFD9C /* GestureRecognizersViewController.swift in Sources */,
+				756381001C2012A4002EFD9C /* TouchProcessingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		756380EE1C1FFDF5002EFD9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756380EF1C1FFDF5002EFD9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		756380FF1C2012A4002EFD9C /* TouchProcessing.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756380FE1C2012A4002EFD9C /* Base */,
+			);
+			name = TouchProcessing.storyboard;
+			path = ../../../CustomTouchesSimple/CustomTouchesSimple;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756380F41C1FFDF5002EFD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		756380F51C1FFDF5002EFD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		756380F71C1FFDF5002EFD9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TouchProcessing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.saniul.TouchProcessing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		756380F81C1FFDF5002EFD9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TouchProcessing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.saniul.TouchProcessing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756380E21C1FFDF5002EFD9C /* Build configuration list for PBXProject "TouchProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756380F41C1FFDF5002EFD9C /* Debug */,
+				756380F51C1FFDF5002EFD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756380F61C1FFDF5002EFD9C /* Build configuration list for PBXNativeTarget "TouchProcessing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756380F71C1FFDF5002EFD9C /* Debug */,
+				756380F81C1FFDF5002EFD9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756380DF1C1FFDF5002EFD9C /* Project object */;
+}
