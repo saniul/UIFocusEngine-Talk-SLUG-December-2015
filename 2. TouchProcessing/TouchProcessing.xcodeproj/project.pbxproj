@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752541961C233A6300F07ED5 /* TouchProcessing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752541951C233A6300F07ED5 /* TouchProcessing.storyboard */; };
 		756380EB1C1FFDF5002EFD9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380EA1C1FFDF5002EFD9C /* AppDelegate.swift */; };
 		756380ED1C1FFDF5002EFD9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380EC1C1FFDF5002EFD9C /* ViewController.swift */; };
 		756380F01C1FFDF5002EFD9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756380EE1C1FFDF5002EFD9C /* Main.storyboard */; };
 		756380F21C1FFDF5002EFD9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756380F11C1FFDF5002EFD9C /* Assets.xcassets */; };
 		756380FC1C200E85002EFD9C /* unit grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 756380FB1C200E85002EFD9C /* unit grid.png */; };
 		756381001C2012A4002EFD9C /* TouchProcessingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380FD1C2012A4002EFD9C /* TouchProcessingViewController.swift */; };
-		756381011C2012A4002EFD9C /* TouchProcessing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756380FF1C2012A4002EFD9C /* TouchProcessing.storyboard */; };
 		756381041C2016B0002EFD9C /* GestureRecognizersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756381021C2016B0002EFD9C /* GestureRecognizersViewController.swift */; };
 		756381051C2016B0002EFD9C /* GestureRecognizers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756381031C2016B0002EFD9C /* GestureRecognizers.storyboard */; };
 		756381221C2019C1002EFD9C /* sleepycat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 756381211C2019C1002EFD9C /* sleepycat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		752541951C233A6300F07ED5 /* TouchProcessing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TouchProcessing.storyboard; sourceTree = "<group>"; };
 		756380E71C1FFDF5002EFD9C /* TouchProcessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchProcessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		756380EA1C1FFDF5002EFD9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		756380EC1C1FFDF5002EFD9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,8 +28,7 @@
 		756380F11C1FFDF5002EFD9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		756380F31C1FFDF5002EFD9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756380FB1C200E85002EFD9C /* unit grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unit grid.png"; sourceTree = "<group>"; };
-		756380FD1C2012A4002EFD9C /* TouchProcessingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TouchProcessingViewController.swift; path = ../../../CustomTouchesSimple/CustomTouchesSimple/TouchProcessingViewController.swift; sourceTree = "<group>"; };
-		756380FE1C2012A4002EFD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TouchProcessing.storyboard; sourceTree = "<group>"; };
+		756380FD1C2012A4002EFD9C /* TouchProcessingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchProcessingViewController.swift; sourceTree = "<group>"; };
 		756381021C2016B0002EFD9C /* GestureRecognizersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureRecognizersViewController.swift; sourceTree = "<group>"; };
 		756381031C2016B0002EFD9C /* GestureRecognizers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GestureRecognizers.storyboard; sourceTree = "<group>"; };
 		756381211C2019C1002EFD9C /* sleepycat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sleepycat.jpg; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 				756380EC1C1FFDF5002EFD9C /* ViewController.swift */,
 				756380EE1C1FFDF5002EFD9C /* Main.storyboard */,
 				756380FD1C2012A4002EFD9C /* TouchProcessingViewController.swift */,
-				756380FF1C2012A4002EFD9C /* TouchProcessing.storyboard */,
+				752541951C233A6300F07ED5 /* TouchProcessing.storyboard */,
 				756381021C2016B0002EFD9C /* GestureRecognizersViewController.swift */,
 				756381031C2016B0002EFD9C /* GestureRecognizers.storyboard */,
 				756380FB1C200E85002EFD9C /* unit grid.png */,
@@ -139,10 +139,10 @@
 			files = (
 				756381221C2019C1002EFD9C /* sleepycat.jpg in Resources */,
 				756380F21C1FFDF5002EFD9C /* Assets.xcassets in Resources */,
-				756381011C2012A4002EFD9C /* TouchProcessing.storyboard in Resources */,
 				756380FC1C200E85002EFD9C /* unit grid.png in Resources */,
 				756381051C2016B0002EFD9C /* GestureRecognizers.storyboard in Resources */,
 				756380F01C1FFDF5002EFD9C /* Main.storyboard in Resources */,
+				752541961C233A6300F07ED5 /* TouchProcessing.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,15 +169,6 @@
 				756380EF1C1FFDF5002EFD9C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		756380FF1C2012A4002EFD9C /* TouchProcessing.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				756380FE1C2012A4002EFD9C /* Base */,
-			);
-			name = TouchProcessing.storyboard;
-			path = ../../../CustomTouchesSimple/CustomTouchesSimple;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

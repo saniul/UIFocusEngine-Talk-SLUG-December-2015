@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752541861C23396600F07ED5 /* FocusGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752541851C23396600F07ED5 /* FocusGuidesViewController.swift */; };
+		752541881C23396D00F07ED5 /* OcclusionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752541871C23396D00F07ED5 /* OcclusionViewController.swift */; };
+		7525418D1C23399100F07ED5 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752541891C23399100F07ED5 /* DataItem.swift */; };
+		7525418E1C23399100F07ED5 /* DataItem+ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525418A1C23399100F07ED5 /* DataItem+ImageName.swift */; };
+		7525418F1C23399100F07ED5 /* DataItem+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525418B1C23399100F07ED5 /* DataItem+SampleData.swift */; };
+		752541901C23399100F07ED5 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7525418C1C23399100F07ED5 /* CollectionViewController.swift */; };
+		752541921C2339E700F07ED5 /* Occlusion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752541911C2339E700F07ED5 /* Occlusion.storyboard */; };
+		752541941C2339FD00F07ED5 /* UserInitiatedFocusChange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752541931C2339FD00F07ED5 /* UserInitiatedFocusChange.storyboard */; };
 		756380BB1C1FDEFC002EFD9C /* InitialFocusSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380B91C1FDEFC002EFD9C /* InitialFocusSelection.swift */; };
 		756380BC1C1FDEFC002EFD9C /* InitialFocusSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756380BA1C1FDEFC002EFD9C /* InitialFocusSelection.storyboard */; };
-		756380C11C1FE182002EFD9C /* FocusGuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380BE1C1FE182002EFD9C /* FocusGuidesViewController.swift */; };
-		756380C21C1FE182002EFD9C /* UserInitiatedFocusChange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756380C01C1FE182002EFD9C /* UserInitiatedFocusChange.storyboard */; };
 		756380C61C1FEFD4002EFD9C /* ForcingFocusChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380C41C1FEFD4002EFD9C /* ForcingFocusChange.swift */; };
 		756380C71C1FEFD4002EFD9C /* ForcingFocusChange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756380C51C1FEFD4002EFD9C /* ForcingFocusChange.storyboard */; };
 		756380C91C1FF05E002EFD9C /* pug1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 756380C81C1FF05E002EFD9C /* pug1.jpg */; };
 		756380CE1C1FF2B6002EFD9C /* WhyIsThisViewNotFocusable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756380CD1C1FF2B6002EFD9C /* WhyIsThisViewNotFocusable.storyboard */; };
-		756380D21C1FF501002EFD9C /* OcclusionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380CF1C1FF501002EFD9C /* OcclusionViewController.swift */; };
-		756380D31C1FF501002EFD9C /* Occlusion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756380D11C1FF501002EFD9C /* Occlusion.storyboard */; };
 		756380D51C1FF7AA002EFD9C /* DebuggingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756380D41C1FF7AA002EFD9C /* DebuggingViewController.swift */; };
 		756380D91C1FFB14002EFD9C /* QuickLook.png in Resources */ = {isa = PBXBuildFile; fileRef = 756380D81C1FFB14002EFD9C /* QuickLook.png */; };
 		759639371C1FD6B200840919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759639361C1FD6B200840919 /* AppDelegate.swift */; };
@@ -25,24 +29,24 @@
 		7596393E1C1FD6B200840919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7596393D1C1FD6B200840919 /* Assets.xcassets */; };
 		759639481C1FD7E900840919 /* DataItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759639461C1FD7E900840919 /* DataItemCollectionViewCell.swift */; };
 		759639491C1FD7E900840919 /* DataItemCellComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759639471C1FD7E900840919 /* DataItemCellComposer.swift */; };
-		7596394E1C1FD7F300840919 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7596394A1C1FD7F300840919 /* DataItem.swift */; };
-		7596394F1C1FD7F300840919 /* DataItem+ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7596394B1C1FD7F300840919 /* DataItem+ImageName.swift */; };
-		759639501C1FD7F300840919 /* DataItem+SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7596394C1C1FD7F300840919 /* DataItem+SampleData.swift */; };
-		759639521C1FD7FF00840919 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759639511C1FD7FF00840919 /* CollectionViewController.swift */; };
 		759639541C1FD84700840919 /* GradientMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759639531C1FD84700840919 /* GradientMaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		752541851C23396600F07ED5 /* FocusGuidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusGuidesViewController.swift; sourceTree = "<group>"; };
+		752541871C23396D00F07ED5 /* OcclusionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OcclusionViewController.swift; sourceTree = "<group>"; };
+		752541891C23399100F07ED5 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataItem.swift; path = Overview/DataItem.swift; sourceTree = SOURCE_ROOT; };
+		7525418A1C23399100F07ED5 /* DataItem+ImageName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DataItem+ImageName.swift"; path = "Overview/DataItem+ImageName.swift"; sourceTree = SOURCE_ROOT; };
+		7525418B1C23399100F07ED5 /* DataItem+SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DataItem+SampleData.swift"; path = "Overview/DataItem+SampleData.swift"; sourceTree = SOURCE_ROOT; };
+		7525418C1C23399100F07ED5 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = Overview/CollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		752541911C2339E700F07ED5 /* Occlusion.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Occlusion.storyboard; sourceTree = "<group>"; };
+		752541931C2339FD00F07ED5 /* UserInitiatedFocusChange.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserInitiatedFocusChange.storyboard; sourceTree = "<group>"; };
 		756380B91C1FDEFC002EFD9C /* InitialFocusSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialFocusSelection.swift; sourceTree = "<group>"; };
 		756380BA1C1FDEFC002EFD9C /* InitialFocusSelection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InitialFocusSelection.storyboard; sourceTree = "<group>"; };
-		756380BE1C1FE182002EFD9C /* FocusGuidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FocusGuidesViewController.swift; path = ../../../UserInitiatedFocusChange/UserInitiatedFocusChange/FocusGuidesViewController.swift; sourceTree = "<group>"; };
-		756380BF1C1FE182002EFD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserInitiatedFocusChange.storyboard; sourceTree = "<group>"; };
 		756380C41C1FEFD4002EFD9C /* ForcingFocusChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForcingFocusChange.swift; sourceTree = "<group>"; };
 		756380C51C1FEFD4002EFD9C /* ForcingFocusChange.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ForcingFocusChange.storyboard; sourceTree = "<group>"; };
 		756380C81C1FF05E002EFD9C /* pug1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pug1.jpg; sourceTree = "<group>"; };
 		756380CD1C1FF2B6002EFD9C /* WhyIsThisViewNotFocusable.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WhyIsThisViewNotFocusable.storyboard; sourceTree = "<group>"; };
-		756380CF1C1FF501002EFD9C /* OcclusionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OcclusionViewController.swift; path = ../../../Occlusion/Occlusion/OcclusionViewController.swift; sourceTree = "<group>"; };
-		756380D01C1FF501002EFD9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Occlusion.storyboard; sourceTree = "<group>"; };
 		756380D41C1FF7AA002EFD9C /* DebuggingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebuggingViewController.swift; sourceTree = "<group>"; };
 		756380D81C1FFB14002EFD9C /* QuickLook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuickLook.png; sourceTree = "<group>"; };
 		759639331C1FD6B200840919 /* Overview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Overview.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,10 +57,6 @@
 		7596393F1C1FD6B200840919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759639461C1FD7E900840919 /* DataItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		759639471C1FD7E900840919 /* DataItemCellComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItemCellComposer.swift; sourceTree = "<group>"; };
-		7596394A1C1FD7F300840919 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
-		7596394B1C1FD7F300840919 /* DataItem+ImageName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataItem+ImageName.swift"; sourceTree = "<group>"; };
-		7596394C1C1FD7F300840919 /* DataItem+SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataItem+SampleData.swift"; sourceTree = "<group>"; };
-		759639511C1FD7FF00840919 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		759639531C1FD84700840919 /* GradientMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientMaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,8 +83,8 @@
 		756380BD1C1FE138002EFD9C /* UserInitiatedFocusChange */ = {
 			isa = PBXGroup;
 			children = (
-				756380BE1C1FE182002EFD9C /* FocusGuidesViewController.swift */,
-				756380C01C1FE182002EFD9C /* UserInitiatedFocusChange.storyboard */,
+				752541851C23396600F07ED5 /* FocusGuidesViewController.swift */,
+				752541931C2339FD00F07ED5 /* UserInitiatedFocusChange.storyboard */,
 			);
 			name = UserInitiatedFocusChange;
 			sourceTree = "<group>";
@@ -102,9 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				756380D81C1FFB14002EFD9C /* QuickLook.png */,
-				756380CF1C1FF501002EFD9C /* OcclusionViewController.swift */,
-				756380D11C1FF501002EFD9C /* Occlusion.storyboard */,
+				752541871C23396D00F07ED5 /* OcclusionViewController.swift */,
 				756380CD1C1FF2B6002EFD9C /* WhyIsThisViewNotFocusable.storyboard */,
+				752541911C2339E700F07ED5 /* Occlusion.storyboard */,
 				756380D41C1FF7AA002EFD9C /* DebuggingViewController.swift */,
 			);
 			name = WhyIsThisViewNotFocusable;
@@ -158,10 +158,10 @@
 		7596394D1C1FD7F300840919 /* Data items */ = {
 			isa = PBXGroup;
 			children = (
-				7596394A1C1FD7F300840919 /* DataItem.swift */,
-				7596394B1C1FD7F300840919 /* DataItem+ImageName.swift */,
-				7596394C1C1FD7F300840919 /* DataItem+SampleData.swift */,
-				759639511C1FD7FF00840919 /* CollectionViewController.swift */,
+				752541891C23399100F07ED5 /* DataItem.swift */,
+				7525418A1C23399100F07ED5 /* DataItem+ImageName.swift */,
+				7525418B1C23399100F07ED5 /* DataItem+SampleData.swift */,
+				7525418C1C23399100F07ED5 /* CollectionViewController.swift */,
 			);
 			name = "Data items";
 			path = ../../../../../../Downloads/UIKitCatalogtvOSCreatingandCustomizingUIKitControls/UIKitCatalog;
@@ -225,12 +225,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752541941C2339FD00F07ED5 /* UserInitiatedFocusChange.storyboard in Resources */,
 				756380CE1C1FF2B6002EFD9C /* WhyIsThisViewNotFocusable.storyboard in Resources */,
 				756380D91C1FFB14002EFD9C /* QuickLook.png in Resources */,
 				7596393E1C1FD6B200840919 /* Assets.xcassets in Resources */,
-				756380D31C1FF501002EFD9C /* Occlusion.storyboard in Resources */,
 				756380BC1C1FDEFC002EFD9C /* InitialFocusSelection.storyboard in Resources */,
-				756380C21C1FE182002EFD9C /* UserInitiatedFocusChange.storyboard in Resources */,
+				752541921C2339E700F07ED5 /* Occlusion.storyboard in Resources */,
 				756380C71C1FEFD4002EFD9C /* ForcingFocusChange.storyboard in Resources */,
 				756380C91C1FF05E002EFD9C /* pug1.jpg in Resources */,
 				7596393C1C1FD6B200840919 /* Main.storyboard in Resources */,
@@ -244,44 +244,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7596394E1C1FD7F300840919 /* DataItem.swift in Sources */,
 				759639481C1FD7E900840919 /* DataItemCollectionViewCell.swift in Sources */,
 				759639391C1FD6B200840919 /* ViewController.swift in Sources */,
-				7596394F1C1FD7F300840919 /* DataItem+ImageName.swift in Sources */,
-				756380C11C1FE182002EFD9C /* FocusGuidesViewController.swift in Sources */,
 				759639541C1FD84700840919 /* GradientMaskView.swift in Sources */,
-				759639521C1FD7FF00840919 /* CollectionViewController.swift in Sources */,
+				7525418E1C23399100F07ED5 /* DataItem+ImageName.swift in Sources */,
+				752541901C23399100F07ED5 /* CollectionViewController.swift in Sources */,
 				756380D51C1FF7AA002EFD9C /* DebuggingViewController.swift in Sources */,
+				7525418D1C23399100F07ED5 /* DataItem.swift in Sources */,
+				7525418F1C23399100F07ED5 /* DataItem+SampleData.swift in Sources */,
 				759639491C1FD7E900840919 /* DataItemCellComposer.swift in Sources */,
+				752541881C23396D00F07ED5 /* OcclusionViewController.swift in Sources */,
+				752541861C23396600F07ED5 /* FocusGuidesViewController.swift in Sources */,
 				759639371C1FD6B200840919 /* AppDelegate.swift in Sources */,
 				756380C61C1FEFD4002EFD9C /* ForcingFocusChange.swift in Sources */,
 				756380BB1C1FDEFC002EFD9C /* InitialFocusSelection.swift in Sources */,
-				759639501C1FD7F300840919 /* DataItem+SampleData.swift in Sources */,
-				756380D21C1FF501002EFD9C /* OcclusionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		756380C01C1FE182002EFD9C /* UserInitiatedFocusChange.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				756380BF1C1FE182002EFD9C /* Base */,
-			);
-			name = UserInitiatedFocusChange.storyboard;
-			path = ../../../UserInitiatedFocusChange/UserInitiatedFocusChange;
-			sourceTree = "<group>";
-		};
-		756380D11C1FF501002EFD9C /* Occlusion.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				756380D01C1FF501002EFD9C /* Base */,
-			);
-			name = Occlusion.storyboard;
-			path = ../../../Occlusion/Occlusion;
-			sourceTree = "<group>";
-		};
 		7596393A1C1FD6B200840919 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -147,6 +147,14 @@
             </objects>
             <point key="canvasLocation" x="5853.5" y="445"/>
         </scene>
+        <!--WhyIsThisViewNotFocusable-->
+        <scene sceneID="orN-Mm-wMr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="WhyIsThisViewNotFocusable" id="azR-f1-8WH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MbX-nj-kBW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7744.5" y="1641"/>
+        </scene>
         <!--ForcingFocusChange-->
         <scene sceneID="PkO-3j-dmd">
             <objects>
@@ -231,7 +239,7 @@
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="IbM-Yf-iIz" kind="show" id="W2v-0Q-ktE"/>
+                                    <segue destination="azR-f1-8WH" kind="show" id="Y6p-vx-q7N"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -243,7 +251,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="kitten1.jpg" width="749" height="500"/>
+        <image name="kitten1.jpg" width="1264" height="1063"/>
         <image name="pug1.jpg" width="2560" height="1080"/>
     </resources>
 </document>
